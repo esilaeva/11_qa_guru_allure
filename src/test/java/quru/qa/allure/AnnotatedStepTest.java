@@ -15,12 +15,10 @@ public class AnnotatedStepTest {
 
         step.openMainPage(TestBase.URL);
         step.searchRepository(TestBase.SEARCH);
-        sleep(2000);
         step.clickOnRepository(TestBase.REPOSITORY);
         step.openIssuesTab();
         step.shouldSeeIssueWithNumber(TestBase.ISSUE);
     }
-
 }
 
 
