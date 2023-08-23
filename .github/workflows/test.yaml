@@ -32,5 +32,6 @@ jobs:
         if: always()
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history
+          BRANCH: gh-pages
+          FOLDER: public
+          CLEAN: true
